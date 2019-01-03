@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Header from './header';
+import Chart from './chart';
 
 class Main extends Component {
     state = {
@@ -10,6 +11,9 @@ class Main extends Component {
       return (
         <div className="App">
             <Header />
+            <Chart 
+                
+            />
         </div>
       );
     }
